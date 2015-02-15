@@ -2,6 +2,7 @@
 
 * Implemented RuboCop, Ruby style linter - [@dblock](https://github.com/dblock).
 * Upgraded RSpec to 3.x syntax - [@dblock](https://github.com/dblock).
+* Implemented handling of '+' in Gmail addresses - [@jdpopkin](https://github.com/jdpopkin).
 
 ### 0.1.0 (6/22/2013)
 

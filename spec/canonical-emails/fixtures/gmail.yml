@@ -27,3 +27,7 @@
   source: donald.duck@google.com
   local: donald.duck
   domain: google.com
+-
+  source: donald.duck+not.daffy@gmail.com
+  local: donaldduck
+  domain: gmail.com

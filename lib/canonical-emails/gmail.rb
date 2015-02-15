@@ -6,7 +6,7 @@ module CanonicalEmails
           email.instance_eval do
             def get_local
               value = super
-              value.gsub('.', '').downcase if value
+              value.gsub('.', '').downcase.gsub(/\+.*$/, '') if value
             end
 
             def domain
